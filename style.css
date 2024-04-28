@@ -1,0 +1,63 @@
+#container {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  height: 600px;
+  background-color: grey;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px powderblue;
+  border: 1px;
+}
+
+#btn-container {
+  display: grid;
+  grid-template-columns:
+    auto auto auto
+    auto;
+  gap: 15px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+input {
+  height: 40px;
+  border-radius: 10px;
+  width: 340px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: none;
+  font-size: 26px;
+  text-align: right;
+}
+
+.btn {
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  height: 83px;
+  background-color: aliceblue;
+}
+
+.product {
+  width: 170px;
+  height: 40px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 12px;
+  color: mediumturquoise;
+  font-family: sans-serif;
+}
+
+#black {
+  color: white;
+  background-color: black;
+}
+
+#red {
+  color: white;
+  background-color: red;
+}
